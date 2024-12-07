@@ -1,13 +1,13 @@
 <?php
-$title = "PPKS - Beranda";
+$title = "Bright Future Safe";
 include 'header.php';
 ?>
 
 <?php
-$heroTitle1 = "Bersama Kita";
-$heroTitle2 = " Hentikan Kekerasan Seksual!";
-$heroSubtitle = "Selamat datang di platform kami yang didedikasikan untuk memberikan himbauan, informasi, dan sumber daya bagi mereka yang ingin berpartisipasi dalam perjuangan melawan kekerasan seksual.";
-$heroButtonLabel = "Lapor Kekerasan!";
+$heroTitle1 = "Bersama";
+$heroTitle2 = " Jaga Masa Depan!";
+$heroSubtitle = "Bersama Kita Mencegah Kekerasan Seksual";
+$heroButtonLabel = "Mulai Edukasi";
 $heroImageSrc = "assets/img/hero/beranda.webp";
 include 'hero.php';
 ?>

@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 :root {
-  --primary-color: #2eb3d6;
-  --secondary-color: #e5f4f8;
-  --tertiary-color: #ffd700;
-  --dark-color: #1c1c1c;
-  --light-color: #f9f9f9;
+    --red : #F4716A;
+    --pink : #F490B4;
+    --yellow : #FFCB06;
+    --blue : #97D9E2;
+    --navy : #4D5EA6;
+    --beige : #FEF7E5;
 }
 
 ::-webkit-scrollbar {

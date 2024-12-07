@@ -3,9 +3,9 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 $servername = "localhost";
-$username = "localhost";
-$password = "root";
-$dbname = "";
+$username = "root";
+$password = "";
+$dbname = "mnm";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection

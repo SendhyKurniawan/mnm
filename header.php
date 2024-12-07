@@ -22,16 +22,16 @@
         </div>
         <ul class="nav-menu" id="nav-menu">
             <li class="fade-in top"><a href="index.php">Beranda</a></li>
-            <li class="fade-in top"><a href="lapor.php">Lapor Segera!</a></li>
             <li class="dropdown fade-in top">
                 <div class="dropbtn">
-                    <a href="definisi.php">Kekerasan Seksual</a>
+                    <a href="definisi.php">Bright Edu</a>
                 </div>
                 <div class="dropdown-content">
                     <a href="definisi.php">Definisi, Jenis & Bentuk</a>
                     <a href="pencegahan.php">Pencegahan & Penanganan</a>
                 </div>
             </li>
+            <li class="fade-in top"><a href="#">Bright Toon</a></li>
             <li class="fade-in top"><a href="kuis.php">Ikuti Kuis</a></li>
             <li class="fade-in top"><a href="about.php">Tentang Kami</a></li>
             <?php
