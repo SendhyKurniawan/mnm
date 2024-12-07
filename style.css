@@ -1,0 +1,12 @@
+:root {
+    --red : #F4716A;
+    --pink : #F490B4;
+    --yellow : #FFCB06;
+    --blue : #97D9E2;
+    --navy : #4D5EA6;
+    --beige : #FEF7E5;
+}
+
+nav{
+    background-color: var(--beige);
+}
