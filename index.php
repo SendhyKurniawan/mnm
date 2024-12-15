@@ -13,7 +13,7 @@ $heroImageSrc = "assets/img/hero/beranda.webp";
 
 <!--  -->
 <section class="mainhero">
-    <div class="container justify-content-center align-items-center d-flex p-5">
+    <div class="container justify-content-center align-items-center d-flex">
         <h1 class="text-center fw-bold"><span class="text-primary">Bersama</span> Jaga<br>Masa Depan</h1>
         <p class="text-center">"Bersama Kita Mencegah Kekerasan Seksual"</p>
     </div>
@@ -28,16 +28,26 @@ $heroImageSrc = "assets/img/hero/beranda.webp";
         </div>
     </div>
     <div class="ajakanteks-wrap fade-in right">
+        <div class="ajakanteks-title">Bright Future Safe</div>
+        <p class="ajakanteks-content">Meningkatnya kasus kekerasan seksual terhadap anak telah mengungkap fakta bahwa banyak anak dan orang tua yang belum paham akan tanda-tanda serta langkah-langkah untuk melindungi diri dari kekerasan seksual.  Kami yakin dalam pengembangannya, <span class="bfstext">BFS (Bright Future Safe)</span>akan menjadi platform kampanye digital berisikan informasi interaktif bagi anak dan orang tua untuk mengenali tanda-tanda awal, melindungi diri, serta mencegah anak-anak terjebak baik sebagai korban maupun pelaku kekerasan seksual.</p>
+    </div>
+    <div class="ajakanimg-wrap fade-in left">
+        <div class="ajakanimg">
+            <img class="img" src="assets/img/beranda/bersamahadapi.webp" />
+        </div>
+    </div>
+    <div class="ajakanteks-wrap fade-in right">
         <div class="ajakanteks-title">Mari Bergerak Bersama!</div>
-        <p class="ajakanteks-content">Kemendikbudristek telah menerbitkan Permendikbudristek tentang Pencegahan dan Penanganan Kekerasan Seksual di Pendidikan Tinggi, sebagai komitmen serius dalam menjaga hak pendidikan dan menghentikan kekerasan seksual di lingkungan pendidikan. Langkah ini sejalan dengan Pasal 31 Undang-Undang Dasar Negara dan Tujuan Pembangunan Berkelanjutan, khususnya dalam mencapai tujuan pendidikan dan kesetaraan gender. Tujuannya adalah memastikan bahwa upaya pencegahan kekerasan seksual di institusi pendidikan tidak menghambat akses dan kelanjutan pendidikan bagi semua warga negara.</p>
+        <p class="ajakanteks-content">“Bersama, kita bisa mencegah kekerasan seksual!” 
+            <br>
+        Dengan edukasi yang tepat, anak dan orang tua dapat mengenali tanda bahaya dan melindungi diri. <span class="bfstext">BFS (Bright Future Safe)</span> hadir untuk membantu menciptakan lingkungan yang lebih aman bagi anak-anak kita!</p>
     </div>
 </section>
 <!--  -->
 <!--  -->
 <section class="himbauan pv">
     <div class="himbauan-wrap">
-        <span class="himbauan-title fade-in bottom">Anda tidak sendirian</span>
-        <Br></Br>
+        <span class="himbauan-title fade-in bottom">Anda tidak sendirian,</span>
         <span class="himbauan-content fade-in bottom">Laporkanlah ke orang terdekat yang Anda percayai bila mengetahui atau mengalami Kekerasan Seksual. Jangan takut untuk melapor, karena Anda berhak membela hak asasi Anda yang telah dilanggar.</span>
     </div>
 </section>

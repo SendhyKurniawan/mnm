@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p class="fade-in right">Belum punya akun? <a href="registerpage.php">Buat akun</a></p>
         </div>
         <div class="img-wrap">
-            <img class="fade-in right" src="assets/img/loginregis/2.webp">
+            <img class="fade-in right" src="assets/img/signlog/Login.png">
             <div class="floatinghashtaglogin1  fade-in left">
                 <p class="hashtag">#GerakBersama</p>
             </div>

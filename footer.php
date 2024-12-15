@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="logo fade-in bottom">
-        <img src="assets/icon/logo.png" alt="Logo">
+        <img src="assets/bfslogo1.png" alt="Logo">
     </div>
     <div class="column fade-in bottom">
         <h3>Beranda</h3>
