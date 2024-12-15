@@ -275,13 +275,44 @@ a {
   height: 64px;
   width: fit-content;
   padding: 20px 48px;
-  background: var(--tertiary-color);
+  background: var(--blue);
   border-radius: 8px;
   border: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: var(--yellow);
+  color: var(--beige);
+  font-size: 18px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.btnmainhero {
+  height: 64px;
+  width: fit-content;
+  padding: 20px 48px;
+  background: var(--blue);
+  border-radius: 55px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--beige);
+  font-size: 18px;
+  font-weight: 700;
+  word-wrap: break-word;
+  transition: all 0.2s ease-in-out;
+}
+.btnmainhero:hover {
+  height: 64px;
+  width: fit-content;
+  padding: 20px 48px;
+  background: var(--navy);
+  border-radius: 55px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--beige);
   font-size: 18px;
   font-weight: 700;
   word-wrap: break-word;

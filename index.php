@@ -16,6 +16,9 @@ $heroImageSrc = "assets/img/hero/beranda.webp";
     <div class="container justify-content-center align-items-center d-flex">
         <h1 class="text-center fw-bold"><span class="text-primary">Bersama</span> Jaga<br>Masa Depan</h1>
         <p class="text-center">"Bersama Kita Mencegah Kekerasan Seksual"</p>
+        <a href="lapor.php">
+            <button class="btnmainhero" type="button" onclick="window.location.href='lapor.php'"><?php echo htmlspecialchars($heroButtonLabel); ?></button>
+        </a>
     </div>
 </section>
 <!--  -->
