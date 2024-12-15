@@ -9,45 +9,17 @@ $heroTitle2 = " Jaga Masa Depan!";
 $heroSubtitle = "Bersama Kita Mencegah Kekerasan Seksual";
 $heroButtonLabel = "Mulai Edukasi";
 $heroImageSrc = "assets/img/hero/beranda.webp";
-include 'hero.php';
 ?>
 
-<!-- Info -->
-<section class="info pv">
-    <div class="info-wrap">
-        <div class="info-title fade-in bottom">Informasi Terkait</div>
-        <div class="info-subtitle fade-in bottom">Berikut merupakan beberapa panduan materi terkait Kekerasan Seksual</div>
-    </div>
-    <div class="panduan-wrap">
-        <div class="panduan fade-in top">
-            <div class="icon-wrap">
-                <div class="circle"></div>
-                <img class="panduan-icon" src="assets/icon/beranda/definisi.webp" />
-            </div>
-            <div class="panduan-title">Definisi</div>
-            <p class="isi">Terdiri dari Definisi, Jenis, dan Bentuk Kekerasan Seksual</p>
-        </div>
-        <div class="verticalline fade-in left"></div>
-        <div class="panduan fade-in top">
-            <div class="icon-wrap">
-                <div class="circle"></div>
-                <img class="panduan-icon" src="assets/icon/beranda/pencegahan.webp" />
-            </div>
-            <div class="panduan-title">Pencegahan &Penanganan </div>
-            <p class="isi">Beberapa langkah pencegahan agar tidak terjadi keberulangan</p>
-        </div>
-        <div class="verticalline fade-in left"></div>
-        <div class="panduan fade-in top">
-            <div class="icon-wrap">
-                <div class="circle"></div>
-                <img class="panduan-icon" src="assets/icon/beranda/dampak.webp" />
-            </div>
-            <div class="panduan-title">Bantuan</div>
-            <p class="isi">Beberapa langkah bantuan apabila terjadi kekerasan seksual</p>
-        </div>
+<!--  -->
+<section class="mainhero">
+    <div class="container justify-content-center align-items-center d-flex p-5">
+        <h1 class="text-center fw-bold"><span class="text-primary">Bersama</span> Jaga<br>Masa Depan</h1>
+        <p class="text-center">"Bersama Kita Mencegah Kekerasan Seksual"</p>
     </div>
 </section>
-<!-- Info -->
+<!--  -->
+
 <!--  -->
 <section class="ajakan pv grid2c">
     <div class="ajakanimg-wrap fade-in left">

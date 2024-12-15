@@ -7,6 +7,7 @@
     --blue : #97D9E2;
     --navy : #4D5EA6;
     --beige : #FEF7E5;
+    --black : #1C1C1C;
 }
 
 ::-webkit-scrollbar {
@@ -73,7 +74,7 @@ a {
 }
 
 .navlogo img {
-  width: 150px;
+  width: 200px;
 }
 
 .nav-menu {
@@ -90,13 +91,13 @@ a {
 
 .nav-menu li a {
   text-decoration: none;
-  color: var(--dark-color);
+  color: var(--black);
   padding: 8px 16px;
   transition: background-color 0.2s;
 }
 
 .nav-menu li a:hover {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   border-radius: 4px;
 }
 
@@ -110,21 +111,21 @@ a {
 }
 
 .dropbtn:hover {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   transition: background-color 0.2s;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
   top: 120%;
 }
 
 .dropdown-content a {
-  color: var(--dark-color);
+  color: var(--black);
   text-decoration: none;
   display: block;
   transition: background-color 0.2s;
@@ -132,7 +133,7 @@ a {
 
 .dropdown:hover .dropbtn,
 .dropdown-content:hover .dropbtn {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
 }
 
 .dropdown:hover .dropdown-content {
@@ -169,14 +170,14 @@ a {
   background-color: var(--primary-color) !important;
   border-radius: 8px !important;
   border: 1px var(--primary-color) solid !important;
-  color: var(--light-color) !important;
+  color: var(--yellow) !important;
 }
 
 .registerbtn {
   background-color: var(--primary-color) !important;
   border-radius: 8px !important;
   border: 1px var(--primary-color) solid !important;
-  color: var(--light-color) !important;
+  color: var(--yellow) !important;
 }
 
 .registerbtn:hover {
@@ -190,7 +191,7 @@ a {
   background-color: var(--primary-color) !important;
   border-radius: 8px !important;
   border: 1px var(--primary-color) solid !important;
-  color: var(--light-color) !important;
+  color: var(--yellow) !important;
 }
 
 .logoutbtn:hover {
@@ -209,7 +210,7 @@ a {
 .mobile-menu-icon .bar {
   height: 3px;
   width: 25px;
-  background-color: var(--dark-color);
+  background-color: var(--black);
   margin: 4px 0;
 }
 
@@ -247,15 +248,23 @@ a {
 }
 
 .hentikan {
-  color: var(--dark-color);
+  color: var(--black);
 }
 
 .subtitle {
-  color: var(--dark-color);
+  color: var(--black);
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
   word-wrap: break-word;
+}
+
+.mainhero {
+  height: 100vh;
+  background-image: url(/assets/img/Beranda/Beranda_Hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .btnhero {
@@ -268,7 +277,7 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: var(--light-color);
+  color: var(--yellow);
   font-size: 18px;
   font-weight: 700;
   word-wrap: break-word;
@@ -298,7 +307,7 @@ a {
 }
 
 .info {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -507,7 +516,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   display: flex;
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   padding-inline: 0;
 }
 
@@ -657,7 +666,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--light-color);
+  color: var(--yellow);
   font-family: Plus Jakarta Sans;
   font-weight: bold;
   line-height: 16px;
@@ -712,7 +721,7 @@ a {
 
 .container input[type="radio"]:checked + label {
   background-color: var(--primary-color);
-  color: var(--light-color);
+  color: var(--yellow);
 }
 
 .quiz-btn {
@@ -724,7 +733,7 @@ a {
 
 .quiz-btn .btn {
   background-color: var(--primary-color);
-  color: var(--light-color);
+  color: var(--yellow);
   padding: 10px;
   border: none;
   border-radius: 12px;
@@ -744,7 +753,7 @@ a {
   grid-template-columns: auto repeat(5, 1fr);
   grid-gap: 20px;
   padding: 20px;
-  background-color: var(--light-color);
+  background-color: var(--yellow);
 }
 
 .logo img {
@@ -808,7 +817,7 @@ footer p {
 }
 
 .copyright {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   opacity: 0.65;
   text-align: center;
   color: #0a142f;
@@ -819,7 +828,7 @@ footer p {
 }
 
 .formlapor {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   max-height: 100vh;
   display: flex;
   align-items: center;
@@ -839,7 +848,7 @@ form {
 label {
   display: block;
   margin-bottom: 0.5rem;
-  color: var(--dark-color);
+  color: var(--black);
   font-size: 16px;
   font-family: Plus Jakarta Sans;
   font-weight: bold;
@@ -891,7 +900,7 @@ button[type="submit"]:hover {
 }
 
 .definisi {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   gap: 2rem;
 }
 
@@ -931,7 +940,7 @@ button[type="submit"]:hover {
 }
 
 .jenis {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
 }
 
 .cardjenis-wrap {
@@ -997,7 +1006,7 @@ button[type="submit"]:hover {
 }
 
 .bentuk {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1051,7 +1060,7 @@ button[type="submit"]:hover {
 }
 
 .pencegahan {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1133,7 +1142,7 @@ button[type="submit"]:hover {
 }
 
 .about {
-  background-color: var(--light-color);
+  background-color: var(--yellow);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1471,7 +1480,7 @@ button[type="submit"]:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: var(--light-color);
+    background-color: var(--yellow);
     position: absolute;
     padding: 1rem;
     top: 100px;
@@ -1518,7 +1527,7 @@ button[type="submit"]:hover {
   }
 
   .dropdown-content a {
-    background-color: var(--light-color);
+    background-color: var(--yellow);
   }
 
   .heropage {
@@ -1566,7 +1575,7 @@ button[type="submit"]:hover {
   }
 
   .info {
-    background-color: var(--light-color);
+    background-color: var(--yellow);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1831,7 +1840,7 @@ button[type="submit"]:hover {
 
   .container input[type="radio"]:checked + label {
     background-color: var(--primary-color);
-    color: var(--light-color);
+    color: var(--yellow);
   }
 }
 
